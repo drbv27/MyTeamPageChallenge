@@ -1,0 +1,45 @@
+.title {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 47.7px;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.member {
+    display: flex;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.team {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.position {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 13.25px;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
