@@ -18,6 +18,11 @@
     display: flex;
 }
 
+img {
+    width: 138.72px;
+    height: auto;
+}
+
 .description {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -42,4 +47,6 @@
     line-height: 13.25px;
     transform: rotate(90deg);
 	transform-origin: left top 0;
+    margin-left: 16.28px;
+    margin-top: 0px;
 }
