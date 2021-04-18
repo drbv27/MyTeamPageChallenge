@@ -14,8 +14,17 @@
     line-height: 27px;
 }
 
+.flex-container {
+    display:flex;
+    flex-wrap:wrap
+}
+
 .member {
     display: flex;
+}
+
+.displace {
+    margin-top: 50px;
 }
 
 img {
