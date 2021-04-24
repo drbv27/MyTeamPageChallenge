@@ -1,6 +1,5 @@
 .box {
     padding: 10px;
-    /* font-size: 150%; */
   }
     .sidebar {
       grid-area: sidebar;
@@ -45,9 +44,6 @@
         font-style: normal;
         font-size: 36px;
         line-height: 47.7px;
-    /*     margin-top: 0;
-        margin-left: 12px;
-        padding-top: 38px; */
     }
     
     .subtitle {
@@ -79,10 +75,6 @@
       font-style: normal;
       font-size: 10px;
       line-height: 13.25px;
-    /*   transform: rotate(90deg);
-      transform-origin: left top 0; */
-    /*   margin-left: 16.28px;
-      margin-top: 0px; */
       writing-mode: vertical-rl;
       text-orientation: mixed;
       float:right;
@@ -95,7 +87,12 @@
     
       .footer {
         text-align: center;
+        color:#bdbdbd ;
       }
+
+      .footer a {
+        color: #bdbdbd;
+    }
 
       .content {
         padding-top: 50px;
@@ -121,6 +118,6 @@
         padding-top: 50px;
       }
       .sidebar4{
-        padding-top: 50px;
+        padding-top: 100px;
       }
     }
