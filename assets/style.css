@@ -99,7 +99,7 @@ img { max-width: 90%;
   }
 
 /*Big Displays*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
   .box {
     padding: 5px;
     margin-left: 100px;
