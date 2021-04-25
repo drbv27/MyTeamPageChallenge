@@ -97,9 +97,52 @@ img { max-width: 90%;
 .sidebar5 {
   padding-top: 50px;
   }
+/*Medium Displays*/
+@media only screen and (min-width: 616px){
+.box {
+    padding: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+    }
+.content,
+.sidebar3,
+.sidebar5 {
+  padding-top: 50px;
+  }
+}
+@media only screen and (min-width: 900px){
+.box {
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+.wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header1 header1 header1 header2 header2 header2" 
+                        "sidebar sidebar  content content sidebar2 sidebar2" 
+                        "sidebar3 sidebar3 sidebar4 sidebar4 sidebar5 sidebar5" 
+                        "footer footer footer footer footer  footer";
+  }
+.content{
+  padding-top: 50px;
+  }
+.sidebar4{
+  padding-top: 50px;
+  }
+.position{
+  float:right;
+  float:initial
+}
+}
+
+
+
+
+
+
 
 /*Big Displays*/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1060px) {
   .box {
     padding: 5px;
     margin-left: 100px;
