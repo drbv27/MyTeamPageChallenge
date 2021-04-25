@@ -1,6 +1,6 @@
 /*Mobile First*/
 .box {
-  padding: 10px;
+  padding: 5px;
   }
 .sidebar {
   grid-area: sidebar;
@@ -35,7 +35,7 @@
   background-color: #eeeeee;
   color: #444;
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 5px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "header1 header1" "header2 header2" "sidebar content" "sidebar2 sidebar3" "sidebar4 sidebar5" "footer footer";
   }
@@ -100,7 +100,12 @@ img { max-width: 90%;
 
 /*Big Displays*/
 @media only screen and (min-width: 600px) {
-  .wrapper {
+  .box {
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+.wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "header1 header1 header1 header2 header2 header2" 
                         "sidebar sidebar  content content sidebar2 sidebar2" 
@@ -111,6 +116,6 @@ img { max-width: 90%;
   padding-top: 50px;
   }
 .sidebar4{
-  padding-top: 100px;
+  padding-top: 50px;
   }
 }
