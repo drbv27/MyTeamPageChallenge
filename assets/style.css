@@ -4,8 +4,6 @@
 *::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 /*...*/
@@ -53,18 +51,9 @@ header {
 
 @media screen and (min-width: 400px) {
   header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
   }
   .header-div {
@@ -77,20 +66,12 @@ header {
 
 @media screen and (min-width: 800px) {
   header {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
             align-items: baseline;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 0 auto;
   }
   .header-title {
-    -webkit-transform: translateY(20%);
             transform: translateY(20%);
     padding-left: 2rem;
   }
@@ -103,9 +84,7 @@ header {
 /*main*/
 main {
   margin: 4rem 0.7rem 0 1.5rem;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
   max-width: 950px;
@@ -114,17 +93,14 @@ main {
 @media screen and (min-width: 950px) {
   main {
     margin: 5rem auto 8rem auto;
-    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
   .two,
   .four,
   .six {
-    -webkit-transform: translateY(30%);
             transform: translateY(30%);
   }
   .five {
-    -webkit-transform: translateY(45%);
             transform: translateY(45%);
   }
 }
@@ -136,7 +112,6 @@ img {
 .profile-details {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 90% 10%;
       grid-template-columns: 90% 10%;
 }
 
@@ -147,7 +122,6 @@ img {
 .two,
 .four,
 .six {
-  -webkit-transform: translateY(20%);
           transform: translateY(20%);
 }
 
@@ -156,8 +130,6 @@ img {
   letter-spacing: 2px;
   font-weight: lighter;
   font-family: "PT-Serif-Regular";
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
   padding-left: 0.1rem;
 }
@@ -181,14 +153,8 @@ img {
 /*footer*/
 footer {
   max-width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
           align-items: flex-end;
   height: 4rem;
   margin-top: 3rem;
