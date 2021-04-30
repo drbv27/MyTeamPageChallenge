@@ -8,7 +8,7 @@
 
 /*...*/
 /*FONTS*/
-@font-face {
+/* @font-face {
   src: url("../fonts/PTSerif-Bold.ttf");
   font-family: "PT-Serif-Bold";
 }
@@ -21,7 +21,7 @@
 @font-face {
   src: url("../fonts/Poppins-Regular.ttf");
   font-family: "Poppins-Regular";
-}
+} */
 
 /*...*/
 /*Base Styles*/
@@ -31,33 +31,54 @@ header {
   height: auto;
   margin: 0 0.5rem;
   max-width: 800px;
-}
-
-.header-title {
-  font-weight: 500;
-  padding-top: 3rem;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .header-div {
-  font-family: "Poppins-Regular";
   margin-top: 2rem;
   width: clamp(300px, 50%, 500px);
 }
 
+.header-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 47.7px;
+}
+
+.header-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  }
+
+
+
 .header-description {
-  margin-top: 0.5rem;
-  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  width: 270px;
 }
 
 @media screen and (min-width: 400px) {
   header {
     display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: left;
+            margin-left: 25px;
   }
   .header-div {
-    text-align: center;
+    text-align: left;
   }
   .header-description {
     font-size: 15px;
