@@ -6,26 +6,6 @@
   padding: 0;
 }
 
-/*...*/
-/*FONTS*/
-/* @font-face {
-  src: url("../fonts/PTSerif-Bold.ttf");
-  font-family: "PT-Serif-Bold";
-}
-
-@font-face {
-  src: url("../fonts/PTSerif-Regular.ttf");
-  font-family: "PT-Serif-Regular";
-}
-
-@font-face {
-  src: url("../fonts/Poppins-Regular.ttf");
-  font-family: "Poppins-Regular";
-} */
-
-/*...*/
-/*Base Styles*/
-/*header*/
 header {
   font-family: "PT-Serif-Bold";
   height: auto;
@@ -57,7 +37,6 @@ header {
   }
 
 
-
 .header-description {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -72,10 +51,10 @@ header {
 @media screen and (min-width: 400px) {
   header {
     display: flex;
-            flex-direction: column;
-            justify-content: left;
-            align-items: left;
-            margin-left: 25px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 25px;
   }
   .header-div {
     text-align: left;
@@ -87,17 +66,20 @@ header {
 
 @media screen and (min-width: 800px) {
   header {
-            flex-direction: row;
-            align-items: baseline;
-            justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    align-items:flex-start;
+    justify-content:space-between;
     margin: 0 auto;
   }
   .header-title {
-            transform: translateY(20%);
+    transform: translateY(20%);
     padding-left: 2rem;
   }
   .header-div {
     text-align: left;
+    padding-right:initial;
+
   }
 }
 
@@ -106,23 +88,23 @@ header {
 main {
   margin: 4rem 0.7rem 0 1.5rem;
   display: grid;
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 2rem;
   max-width: 950px;
 }
 
 @media screen and (min-width: 950px) {
   main {
-    margin: 5rem auto 8rem auto;
-        grid-template-columns: repeat(3, 1fr);
+      margin: 5rem auto 8rem auto;
+      grid-template-columns: repeat(3, 1fr);
   }
   .two,
   .four,
   .six {
-            transform: translateY(30%);
+    transform: translateY(30%);
   }
   .five {
-            transform: translateY(45%);
+    transform: translateY(45%);
   }
 }
 
@@ -133,7 +115,7 @@ img {
 .profile-details {
   display: -ms-grid;
   display: grid;
-      grid-template-columns: 90% 10%;
+  grid-template-columns: 90% 10%;
 }
 
 .profile-card {
@@ -143,7 +125,7 @@ img {
 .two,
 .four,
 .six {
-          transform: translateY(20%);
+    transform: translateY(20%);
 }
 
 .profile-job {
@@ -151,7 +133,7 @@ img {
   letter-spacing: 2px;
   font-weight: lighter;
   font-family: "PT-Serif-Regular";
-          writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   padding-left: 0.1rem;
 }
 
@@ -175,8 +157,8 @@ img {
 footer {
   max-width: 600px;
   display: flex;
-          justify-content: center;
-          align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
   height: 4rem;
   margin-top: 3rem;
 }
